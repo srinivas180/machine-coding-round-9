@@ -8,16 +8,28 @@ export function Header() {
             <h1 className="header__title">Viddi</h1>
 
             <nav className="nav">
-                <NavLink className="nav__link link--decor-none link--black">
+                <NavLink
+                    className="nav__link link--decor-none link--black"
+                    to="/"
+                >
                     Home
                 </NavLink>
-                <NavLink className="nav__link link--decor-none link--black">
+                <NavLink
+                    className="nav__link link--decor-none link--black"
+                    to="/explore/all"
+                >
                     Explore
                 </NavLink>
-                <NavLink className="nav__link link--decor-none link--black">
+                <NavLink
+                    className="nav__link link--decor-none link--black"
+                    to="/playlists"
+                >
                     Playlists
                 </NavLink>
-                <NavLink className="nav__link link--decor-none link--black">
+                <NavLink
+                    className="nav__link link--decor-none link--black"
+                    to="/watch-later"
+                >
                     Watch Later
                 </NavLink>
             </nav>

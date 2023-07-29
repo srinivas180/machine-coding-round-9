@@ -1,0 +1,30 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.video__watch-later-icon {
+    cursor: pointer;
+    width: fit-content;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    border-bottom-left-radius: 10px;
+    padding: 2px;
+}
+
+.video__thumbnail {
+    width: 100%;
+}
+
+.video__data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.video__creator-img {
+    border-radius: 50%;
+}
