@@ -1,0 +1,23 @@
+.header {
+    padding: 0 24px;
+}
+
+.header__title {
+    margin: 0 0 24px 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav__link {
+    width: fit-content;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.nav__link:hover {
+    background-color: var(--secondary);
+}

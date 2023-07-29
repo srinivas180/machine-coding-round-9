@@ -1,4 +1,8 @@
 import { Route, Routes } from "react-router";
+
+import { Home } from "./pages/Home";
+import { Explore } from "./pages/Explore";
+
 import "./App.css";
 
 function App() {
@@ -6,6 +10,7 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="explore/:categoryId" element={<Explore />} />
             </Routes>
         </div>
     );

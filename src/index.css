@@ -84,6 +84,10 @@ body {
     color: var(--primary);
 }
 
+.link--black {
+    color: black;
+}
+
 .link--decor-none {
     text-decoration: none;
 }
