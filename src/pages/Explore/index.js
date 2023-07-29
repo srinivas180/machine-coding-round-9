@@ -3,9 +3,9 @@ import { useParams } from "react-router";
 import { videos } from "../../db/videos";
 
 import { Header } from "../../components/Header";
+import { Video } from "../../components/Video";
 
 import "./index.css";
-import { Video } from "../../components/Video";
 
 export function Explore() {
     const { category } = useParams();
