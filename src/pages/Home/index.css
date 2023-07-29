@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    gap: 46px;
+    gap: 24px;
 }
 
 .categories {
@@ -8,6 +8,10 @@
     grid-gap: 100px;
     gap: 64px;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.page {
+    width: 100%;
 }
 
 .page__title {
