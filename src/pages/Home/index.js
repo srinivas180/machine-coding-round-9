@@ -1,11 +1,14 @@
-import { categories } from "../../db/categories";
+import { useContext } from "react";
 
 import { Header } from "../../components/Header";
 import { Category } from "../../components/Category";
 
+import { CategoriesContext } from "../../contexts/CategoriesContext";
+
 import "./index.css";
 
 export function Home() {
+    const { categories } = useContext(CategoriesContext);
     return (
         <div className="container">
             <Header />
